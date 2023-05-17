@@ -32,8 +32,7 @@ int main()
     
         if (raspString == "1" || raspString == "2" || raspString == "3" || raspString == "4") {
             choice = stoi(raspString);
-            std::cin.clear();
-            fflush(stdin);
+
 
             switch (choice) {
             case 1: showBalance(balance);
